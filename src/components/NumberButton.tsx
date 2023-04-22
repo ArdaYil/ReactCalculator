@@ -1,7 +1,7 @@
 interface Props {
   onClick: () => void;
   children: string;
-  className: string;
+  className?: string;
 }
 
 export default function NumberButton({ children, className, onClick }: Props) {
