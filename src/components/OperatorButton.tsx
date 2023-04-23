@@ -17,6 +17,10 @@ icons.set(OperatorType.ADDITION, { type: "text", icon: "+" });
 icons.set(OperatorType.SUBTRACTION, { type: "text", icon: "-" });
 icons.set(OperatorType.MULTIPLICATION, { type: "text", icon: "x" });
 icons.set(OperatorType.DIVISION, { type: "text", icon: "÷" });
+icons.set(OperatorType.POWEROF, { type: "text", icon: "^" });
+icons.set(OperatorType.ROOT, { type: "text", icon: "√" });
+icons.set(OperatorType.ROOT, { type: "text", icon: "√" });
+icons.set(OperatorType.EQUAL, { type: "text", icon: "=" });
 
 export default function OperatorButton({ type, className, onClick }: Props) {
   const baseClass = "operator-btn--" + type.toString();

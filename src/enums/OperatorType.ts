@@ -3,6 +3,9 @@ enum OperatorType {
   SUBTRACTION,
   MULTIPLICATION,
   DIVISION,
+  POWEROF,
+  ROOT,
+  EQUAL,
 }
 
 export default OperatorType;
